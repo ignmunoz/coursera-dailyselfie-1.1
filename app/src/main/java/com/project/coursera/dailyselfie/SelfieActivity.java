@@ -48,6 +48,8 @@ public class SelfieActivity extends AppCompatActivity implements OnViewImageList
     private AlarmManager mAlarmManager;
     Intent mNotificationReceiverIntent;
     PendingIntent mNotificationReceiverPendingIntent;
+    
+    // Constants
     private static final long INITIAL_ALARM_DELAY = 2 * 60 * 1000L; // = 2 minutes
 
     // For WRITE_EXTERNAL_STORAGE permission (API >= 23)
