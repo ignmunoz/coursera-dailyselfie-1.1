@@ -58,7 +58,6 @@ public class ImageViewerFragment extends Fragment implements ActionMode.Callback
         if (mActionMode == null) {
             mActionMode = ((AppCompatActivity) getActivity()).startSupportActionMode(this);
         }
-        //((SelfieActivity) getActivity()).hideCamera();
     }
 
     // Public function to allow the activity to force a redraw of the image
@@ -91,14 +90,6 @@ public class ImageViewerFragment extends Fragment implements ActionMode.Callback
         });
     }
 
-    /*// Called when the action mode is created; startActionMode() was called
-    @Override
-    public boolean onCreateActionMode(ActionMode mode, Menu menu) {
-        // Inflate a menu resource providing context menu items
-        MenuInflater inflater = mode.getMenuInflater();
-        inflater.inflate(R.menu.image_viewer_context_menu, menu);
-        return true;
-    }*/
 
     // Called each time the action mode is shown. Always called after onCreateActionMode, but
     // may be called multiple times if the mode is invalidated.
