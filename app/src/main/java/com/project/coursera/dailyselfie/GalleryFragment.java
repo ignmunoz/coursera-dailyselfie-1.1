@@ -132,25 +132,12 @@ public class GalleryFragment extends Fragment
     // may be called multiple times if the mode is invalidated.
     @Override
     public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
-        //((SelfieActivity) getActivity()).hideCamera();
         return false; // Return false if nothing is done
     }
 
     @Override
     public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
         return false;
-        /*switch (item.getItemId()) {
-            case R.id.action_delete:
-                deleteGalleryItems(mode);
-                return true;
-
-            case R.id.action_select_all:
-                mGalleryAdapter.selectAll(mGalleryView);
-                return true;
-
-            default:
-                return false;
-        }*/
     }
 
     // Called when the user exits the action mode
