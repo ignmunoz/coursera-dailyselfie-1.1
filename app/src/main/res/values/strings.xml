@@ -6,16 +6,5 @@
     <string name="error_create_file">Failed to create the temp file for your selfie</string>
     <string name="error_open_photo_file">Cannot open image file path</string>
     <string name="selected_count">%1$d selected</string>
-    <string name="multi_delete_are_you_sure">Are you sure you want to delete these %1$d items?</string>
-    <string name="single_delete_are_you_sure">Are you sure you want to delete this item?</string>
-    <string name="selected_all">All selected</string>
-    <string name="action_select_all">Select all</string>
-    <string name="action_crop">Crop</string>
-    <string name="action_edit">Edit</string>
-    <string name="failed_delete_image">Could not find image to delete</string>
-    <string name="view_image_action_title">Edit Selfie</string>
-    <string name="action_cancel_alarm">Cancel reminder</string>
-    <string name="action_enable_alarm">Set reminder</string>
-    <string name="notification_text">It\'s time to take your next selfie!</string>
     <string name="action_camera">Take Selfie</string>
 </resources>
